@@ -1,6 +1,6 @@
 # RandomizedSMZ3MSU
 
-This is a very basic powershell script for randomizing MSUs made for the [SMZ3 Cas' Randomizer](https://github.com/Vivelin/SMZ3Randomizer).
+This is a very basic powershell script for randomizing MSUs made for the [SMZ3 Cas' Randomizer](https://github.com/Vivelin/SMZ3Randomizer). It works by grouping all of the same songs from all available MSUs and randomly picking one from those songs. For example, for Eastern Palace, it'll take all Eastern Palace songs from all available MSUs and pick one.
 
 To run this, either download the [RandomizedSMZ3MSU.ps1](https://github.com/MattEqualsCoder/RandomizedSMZ3MSU/blob/main/RandomizedSMZ3MSU.ps1) powershell script file or copy its text and create a new file named RandomizedSMZ3MSU.ps1. Place the RandomizedSMZ3MSU.ps1 file is in the directory with all of the MSU folders.
 
@@ -9,7 +9,6 @@ To run this, either download the [RandomizedSMZ3MSU.ps1](https://github.com/Matt
 After that, right click on the RandomizedSMZ3MSU.ps1 and click Run with Powershell. It'll then scan through all of your MSU folders and find any that it thinks it can use. If you don't see an MSU file you're expecting, make sure that it's set to combined SMZ3.
 
 ![image](https://user-images.githubusercontent.com/63823784/200104571-1523a1dc-215c-4b6c-8907-0828f00cd791.png)
-
 
 If the list of MSUs looks good, type in Y and hit enter. It'll thne create a new folder (default of RandomizedSMZ3MSU) with a randomized-smz3.msu file in it that you can use for generating a new seed.
 
